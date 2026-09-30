@@ -1,0 +1,15 @@
+.memory.lock
+*.tmp.*
+
+# 同步白名单（deny-all）：只有下列文件进入记忆仓库
+*
+!.gitignore
+!PROVENANCE
+!KEY.md
+!KEY-archive.md
+!MEMORY.md
+!CONFLICTS.md
+!TODOS.md
+!logs/
+!logs/**
+!.gitattributes
