@@ -1,0 +1,17 @@
+.memory.lock
+*.tmp.*
+
+# 全局记忆同步白名单（deny-all）：只放行全局记忆文件
+*
+!.gitignore
+!PROVENANCE
+!CONFLICTS.md
+!.gitattributes
+!MEMORY.md
+!MEMORY-archive.md
+!USER.md
+!USER-archive.md
+!TODOS-life.md
+!TODOS-work.md
+!daily/
+!daily/**
